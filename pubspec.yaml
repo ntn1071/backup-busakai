@@ -1,0 +1,44 @@
+name: busakai
+description: "A new Flutter project."
+# Prevent accidental publishing
+publish_to: 'none'
+
+# Version and build number
+version: 1.0.0+1
+
+# Dart SDK version
+environment:
+  sdk: ^3.5.4
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_swiper_null_safety: ^1.0.0
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.0 
+  shared_preferences: ^2.1.1
+  uuid: ^3.0.6
+  image_picker: ^0.8.7  
+  permission_handler: ^10.2.0
+  lottie: ^3.0.0
+  
+  geolocator: ^12.0.0
+  geocoding: ^4.0.0
+
+# Development dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Flutter-specific configurations
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/landin_bg.png
+    - assets/bus.png
+    - assets/driv_pfp.png
+    - assets/pass_pfp.png
+    - assets/map_bg.png
